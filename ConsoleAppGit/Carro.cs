@@ -1,4 +1,5 @@
-﻿namespace ConsoleAppGit;
+﻿
+namespace ConsoleAppGit;
 
 public class Carro
 {
@@ -16,4 +17,6 @@ public class Carro
         Flex = flex;
         Dono = dono;
     }
+
+    public string GetCRLV() => "DADOS DO DOCUMENTO DO CARRO";
 }
