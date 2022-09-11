@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleAppGit;
+﻿namespace ConsoleAppGit;
 
 public class Carro
 {
@@ -12,4 +6,14 @@ public class Carro
     public string Cor { get; set; }
     public int Potencia { get; set; }
     public bool Flex { get; set; }
+    public Dono Dono { get; set; }
+
+    public Carro(string placa, string cor, int potencia, bool flex, Dono dono)
+    {
+        Placa = placa;
+        Cor = cor;
+        Potencia = potencia;
+        Flex = flex;
+        Dono = dono;
+    }
 }
