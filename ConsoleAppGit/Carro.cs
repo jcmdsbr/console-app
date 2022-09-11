@@ -23,6 +23,7 @@ public class Carro
 
     public void Acelerar()
     {
+        var valor = 2;
         // Implementação acelerar
     }
 
