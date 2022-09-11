@@ -12,5 +12,4 @@ public class Carro
     public string Cor { get; set; }
     public int Potencia { get; set; }
     public bool Flex { get; set; }
-    public string Modelo { get; set; }
 }
