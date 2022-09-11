@@ -19,4 +19,15 @@ public class Carro
     }
 
     public string GetCRLV() => "DADOS DO DOCUMENTO DO CARRO";
+
+
+    public void Acelerar()
+    {
+        // Implementação acelerar
+    }
+
+    public void Frear()
+    {
+        // Implementação Frear
+    }
 }
