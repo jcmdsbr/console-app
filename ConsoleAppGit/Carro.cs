@@ -6,14 +6,20 @@ public class Carro
     public string Cor { get; set; }
     public int Potencia { get; set; }
     public bool Flex { get; set; }
-    public Dono Dono { get; set; }
 
-    public Carro(string placa, string cor, int potencia, bool flex, Dono dono)
+    public Carro(string placa, string cor, int potencia, bool flex)
     {
         Placa = placa;
         Cor = cor;
         Potencia = potencia;
         Flex = flex;
-        Dono = dono;
+    }
+
+    public void Acelerar() {
+        // Implementação acelerar
+    }
+
+    public void Frear(){
+        // Implementação Frear
     }
 }
