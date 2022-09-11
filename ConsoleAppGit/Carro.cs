@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppGit;
 
-internal class Carro
+public class Carro
 {
+    public string Placa { get; set; }
+    public string Cor { get; set; }
+    public int Potencia { get; set; }
+    public bool Flex { get; set; }
 }
