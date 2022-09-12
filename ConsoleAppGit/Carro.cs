@@ -1,4 +1,5 @@
-﻿namespace ConsoleAppGit;
+﻿
+namespace ConsoleAppGit;
 
 public class Carro
 {
@@ -20,6 +21,19 @@ public class Carro
     }
 
     public void Frear(){
+        // Implementação Frear
+    }
+
+    public string GetCRLV() => "DADOS DO DOCUMENTO DO CARRO";
+
+
+    public void Acelerar()
+    {
+        // Implementação acelerar
+    }
+
+    public void Frear()
+    {
         // Implementação Frear
     }
 }
