@@ -29,8 +29,10 @@ public class Carro
 
     public void Acelerar()
     {
-        var valor = 2;
+        var valor = 233;
         // Implementação acelerar
+        //XPTO
+        valor = 302;
     }
 
     public void Frear()
